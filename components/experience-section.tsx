@@ -8,7 +8,7 @@ const experiences = [
     company: "uOttaHack",
     link: "https://www.uottahack.ca/",
     description:
-      "Connecting leading brands with Canada’s second largest hackathon to help deliver Ottawa’s largest technology event through strategic sponsorships.Connecting leading brands with Canada’s second largest hackathon to help deliver Ottawa’s largest technology event through strategic sponsorships.",
+      "Connecting leading brands with Canada’s second largest hackathon to help deliver Ottawa’s largest technology event through strategic sponsorships. Connecting leading brands with Canada’s second largest hackathon to help deliver Ottawa’s largest technology event through strategic sponsorships.",
   },
   {
     period: "2025 - Present",

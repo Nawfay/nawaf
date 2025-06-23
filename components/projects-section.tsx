@@ -5,11 +5,11 @@ import { ProjectCard } from "./project-card"
 const projects = [
   {
     name: "didban",
-    description: "🎶 go library for downloading and tagging music via Deezer track IDs, built for the Sorn system. ",
+    description: "🎶 Go library for downloading and tagging music via Deezer track IDs, built for the Sorn system. ",
     icon: "D",
     iconColor: "bg-orange-500",
     githubUrl: "https://github.com/Nawfay/didban",
-    technologies: ["go", "YouTube", "Deezer"],
+    technologies: ["Go", "YouTube", "Deezer"],
   },
   {
     name: "dynamicspace",
@@ -17,7 +17,7 @@ const projects = [
     icon: "D",
     iconColor: "bg-blue-500",
     githubUrl: "https://github.com/Nawfay/DynamicSpace",
-    technologies: ["go", "Docker", "Rust",],
+    technologies: ["Go", "Docker", "Rust",],
   },
   {
     name: "dimmcie",
