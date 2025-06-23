@@ -5,6 +5,9 @@ import { ThemeProvider } from "@/components/theme/theme-provider"
 
 export const metadata: Metadata = {
   title: "nawaf.homes",
+  icons: {
+    icon: "/favicon/favicon.ico", 
+  },
 }
 
 export default function RootLayout({

@@ -11,11 +11,20 @@ const experiences = [
       "Connecting leading brands with Canada’s second largest hackathon to help deliver Ottawa’s largest technology event through strategic sponsorships.Connecting leading brands with Canada’s second largest hackathon to help deliver Ottawa’s largest technology event through strategic sponsorships.",
   },
   {
+    period: "2025 - Present",
+    title: "Development Lead",
+    company: "Connecting Young Minds (CYM)",
+    link: "https://www.cymottawa.com/",
+    description:
+    "Designed and developed CYM's official website along with a robust registration and submission system, built to scale for 600+ users. Focused on creating a seamless user experience while ensuring performance and maintainability across the platform."
+
+  },
+  {
     period: "2023 - 2023",
     title: "Software Developer",
     company: "Platinum Medical Clinic",
     description:
-      "Development solutions for public administration using advanced technologies. In my role, I have improved development agility by implementing modern techniques, creating TypeScript libraries for sharing utilities across projects, writing documentation and upgrading outdated projects to new technologies.",
+      "Developed and implemented digital solutions to improve healthcare accessibility for seniors, including the conversion of over 230 paper forms into efficient e-forms, which reduced doctors' time per patient by 35%. Created custom plugins to accelerate the form creation process by 50% and automated appointment notifications using Python and SQL. Actively contributed to IT infrastructure maintenance and demonstrated strong problem-solving skills in resolving technical challenges.",
     },
 ]
 

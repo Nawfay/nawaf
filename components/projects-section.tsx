@@ -6,7 +6,7 @@ const projects = [
   {
     name: "didban",
     description: "🎶 Go library for downloading and tagging music via Deezer track IDs, built for the Sorn system. ",
-    icon: "d",
+    icon: "D",
     iconColor: "bg-orange-500",
     githubUrl: "https://github.com/Nawfay/didban",
     technologies: ["Go", "YouTube", "Deezer"],
@@ -14,7 +14,7 @@ const projects = [
   {
     name: "dynamicspace",
     description: "📃 A paper on architectural redesign of Serverless Hosting using dynamic volumes to eliminate \"cold starts\"  ",
-    icon: "S",
+    icon: "D",
     iconColor: "bg-blue-500",
     githubUrl: "https://github.com/Nawfay/DynamicSpace",
     technologies: ["go", "Docker", "Rust",],

@@ -15,7 +15,7 @@ export function Header() {
             </a>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <a href="https://bsky.app/profile/nawfay.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky">
               <RiBlueskyLine className="h-4 w-4" />
             </a>
           </Button>
