@@ -53,8 +53,7 @@ export async function PostsSection() {
             </div>
             <h3 className="text-lg font-medium text-foreground mb-2">Posts Coming Soon</h3>
             <p className="text-muted-foreground text-sm">
-              I'm working on some exciting content. Check back soon for new posts about web development, technology, and
-              my latest projects.
+              Check back later to see the latest posts.
             </p>
           </div>
         </div>
