@@ -8,7 +8,7 @@ interface Post {
   link: string
 }
 
-const API_URL = ""
+const API_URL = "https://blog.nawaf.homes"
 
 async function fetchPosts(): Promise<Post[]> {
   try {
