@@ -2,6 +2,7 @@ import { Github, Linkedin, Twitter } from "lucide-react"
 import { RiBlueskyLine } from "react-icons/ri";
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme/theme-toggle"
+import { ResumeLink } from "@/components/resume-link"
 
 export function Header() {
   return (
@@ -24,6 +25,7 @@ export function Header() {
               <Github className="h-4 w-4" />
             </a>
           </Button>
+          <ResumeLink />
           <ThemeToggle />
         </div>
       </div>
