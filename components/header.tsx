@@ -1,8 +1,6 @@
-import { Github, Linkedin, Twitter } from "lucide-react"
-import { RiBlueskyLine } from "react-icons/ri";
+import { Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme/theme-toggle"
-import { ResumeLink } from "@/components/resume-link"
 
 export function Header() {
   return (
@@ -16,16 +14,10 @@ export function Header() {
             </a>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <a href="https://bsky.app/profile/nawfay.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky">
-              <RiBlueskyLine className="h-4 w-4" />
-            </a>
-          </Button>
-          <Button variant="ghost" size="icon" asChild>
             <a href="https://github.com/Nawfay" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github className="h-4 w-4" />
             </a>
           </Button>
-          <ResumeLink />
           <ThemeToggle />
         </div>
       </div>
