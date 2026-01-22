@@ -4,37 +4,61 @@ import { ProjectCard } from "./project-card"
 
 const projects = [
   {
-    name: "didban",
-    description: "🎶 Go library for downloading and tagging music via Deezer track IDs, built for the Sorn system. ",
-    icon: "D",
-    iconColor: "bg-orange-500",
-    githubUrl: "https://github.com/Nawfay/didban",
-    technologies: ["Go", "YouTube", "Deezer"],
-  },
+    name: "Bookclub",
+    description: "A full-stack Next.js application for tracking reading progress, managing shared sessions, and posting community notes.",
+    icon: "B",
+    iconColor: "bg-indigo-500",
+    githubUrl: "https://github.com/nawfay/bookclub",
+    mediaUrl: "https://imgur.com/rUyxil8",
+    technologies: ["Next.js", "TypeScript", "PocketBase", "Go"],
+  },  
   {
     name: "dynamicspace",
-    description: "📃 A paper on architectural redesign of Serverless Hosting using dynamic volumes to eliminate \"cold starts\"  ",
+    description: "A paper on architectural redesign of Serverless Hosting using dynamic volumes to eliminate \"cold starts\"  ",
     icon: "D",
     iconColor: "bg-blue-500",
     githubUrl: "https://github.com/Nawfay/DynamicSpace",
+    mediaUrl: "https://imgur.com/8vxECnj.png", // Add your image URL here
     technologies: ["Go", "Docker", "Rust",],
   },
   {
-    name: "dimmcie",
-    description: "⏲️ Dynamically starts your Minecraft server on player activity ",
+    name: "didban",
+    description: " Go library for downloading and tagging music via Deezer track IDs, built for the Sorn system.",
     icon: "D",
     iconColor: "bg-purple-500",
     githubUrl: "https://github.com/Nawfay/dimmcie",
-    technologies: ["Docker", "Gate", "Deno"],
+    mediaUrl: "https://imgur.com/wpZRHKP.png",
+    technologies: ["Go", "ffmpeg", "Scraping"],
   },
   {
     name: "seenit",
-    description: "🔗 Sonarr alternative",
+    description: "A high-performance Sonarr alternative. Automates media discovery, torrent scraping, and library management with a modern web interface.",
     icon: "S",
     iconColor: "bg-gray-800",
     githubUrl: "https://github.com/Nawfay/Seenit",
+    mediaUrl: "https://camo.githubusercontent.com/ebdc52025397850a6821628969194c9a7189bccd824e2573a901cb775963f2ad/68747470733a2f2f75732d656173742d312e74697874652e6e65742f75706c6f6164732f6469736869742e74697874652e636f2f323032322d30382d31355f31362d33312d35302e676966",
     technologies: ["Rust", "Scraping", "Torrents","Tailwind CSS"],
   },
+    {
+    name: "DisLyrics",
+    description: "An open-source lyrics aggregating API providing fast responses for your favorite songs.",
+    icon: "S",
+    iconColor: "bg-gray-800",
+    githubUrl: "https://github.com/Nawfay/DisLyrics",
+    mediaUrl: "https://imgur.com/Qi3XaYK.png",
+    technologies: ["Deno", "Scraping", "Opine","TypeScript"],
+  },
+  {
+    name: "Dimmcie",
+    description: "A 'Minecraft Server on Demand' system that dynamically starts your Minecraft server when players join and shuts it down when idle to conserve resources.",
+    icon: "D",
+    iconColor: "bg-pink-500",
+    githubUrl: "https://github.com/Nawfay/dimmcie",
+    mediaUrl: "https://imgur.com/W9RcNOZ.png",
+    technologies: ["Proxy", "Docker", "Deno"],
+  }
+
+  
 ]
 
 export function ProjectsSection() {

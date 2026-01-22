@@ -1,4 +1,4 @@
-import { Github } from "lucide-react"
+import { Github, ExternalLink, Play } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -9,12 +9,51 @@ interface ProjectCardProps {
   icon: string
   iconColor: string
   githubUrl: string
+  mediaUrl?: string
   technologies: string[]
 }
 
-export function ProjectCard({ name, description, icon, iconColor, githubUrl, technologies }: ProjectCardProps) {
+export function ProjectCard({ name, description, icon, iconColor, githubUrl, mediaUrl, technologies }: ProjectCardProps) {
+  // Check if the media URL is a video (Imgur video or other video formats)
+  const isVideo = mediaUrl && (
+    mediaUrl.includes('imgur.com') && !mediaUrl.includes('.png') && !mediaUrl.includes('.jpg') && !mediaUrl.includes('.jpeg') ||
+    mediaUrl.includes('.mp4') || 
+    mediaUrl.includes('.webm') || 
+    mediaUrl.includes('.mov')
+  );
+
+  // Convert Imgur link to direct video URL if needed
+  const getMediaUrl = (url: string) => {
+    if (url.includes('imgur.com/') && !url.includes('.mp4')) {
+      const id = url.split('/').pop();
+      return `https://i.imgur.com/${id}.mp4`;
+    }
+    return url;
+  };
+
   return (
-    <Card className="group hover:shadow-md transition-shadow">
+    <Card className="group hover:shadow-md transition-shadow overflow-hidden">
+      {mediaUrl && (
+        <div className="aspect-[4/3] w-full overflow-hidden max-h-40">
+          {isVideo ? (
+            <video 
+              src={getMediaUrl(mediaUrl)}
+              className="w-full h-full object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+              style={{ outline: 'none' }}
+            />
+          ) : (
+            <img 
+              src={mediaUrl} 
+              alt={`${name} preview`}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+          )}
+        </div>
+      )}
       <CardHeader className="pb-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
