@@ -6,7 +6,7 @@ export function Footer() {
           <p> 🦥 sloth -
             <i> ottawa, toronto</i>
           </p>
-          <p>2025 Nawaf Ahmed</p>
+          <p>2026 Nawaf Ahmed</p>
         </div>
       </div>
     </footer>
