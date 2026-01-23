@@ -17,7 +17,7 @@ const projects = [
     description: "A paper on architectural redesign of Serverless Hosting using dynamic volumes to eliminate \"cold starts\"  ",
     icon: "D",
     iconColor: "bg-blue-500",
-    githubUrl: "https://github.com/Nawfay/DynamicSpace",
+    githubUrl: "https://dynamicspace.nawaf.homes/",
     mediaUrl: "https://imgur.com/8vxECnj.png", // Add your image URL here
     technologies: ["Go", "Docker", "Rust",],
   },
