@@ -26,7 +26,7 @@ const projects = [
     description: " Go library for downloading and tagging music via Deezer track IDs, built for the Sorn system.",
     icon: "D",
     iconColor: "bg-purple-500",
-    githubUrl: "https://github.com/Nawfay/dimmcie",
+    githubUrl: "https://github.com/Nawfay/didban",
     mediaUrl: "https://imgur.com/wpZRHKP.png",
     technologies: ["Go", "ffmpeg", "Scraping"],
   },
