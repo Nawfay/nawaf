@@ -3,6 +3,14 @@ import { ExperienceItem } from "./experience-item"
 
 const experiences = [
   {
+    period: "2026 - Present",
+    title: "uOttawa Head Delegate",
+    company: "CUSEC",
+    link: "https://2026.cusec.net/",
+    description:
+          "Co-leading the University of Ottawa delegation for one of Canada’s largest student-led tech conferences, driving student engagement, securing funding, and building partnerships with sponsors to support conference participation and operations.",
+  },
+  {
     period: "2025 - Present",
     title: "Sponsorship Coordinator",
     company: "uOttaHack",
