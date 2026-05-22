@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme/theme-provider"
 export const metadata: Metadata = {
   title: "nawaf.homes",
   icons: {
-    icon: "/favicon/favicon.ico", 
+    icon: "/favicon/favicon.ico",
   },
 }
 
