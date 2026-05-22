@@ -11,7 +11,7 @@ export default function Page() {
             sloth. Building machine learning algorithms with a focus on meta-reinforcement learning.
           </p>
           <p className="text-sm text-muted-foreground/80">
-            i love boko
+            i love boko 🦥
           </p>
         </div>
 
