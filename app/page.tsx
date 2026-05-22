@@ -1,23 +1,42 @@
-import { Header } from "@/components/header"
-import { IntroSection } from "@/components/intro-section"
-import { ProjectsSection } from "@/components/projects-section"
-import { ExperienceSection } from "@/components/experience-section"
-import { PostsSection } from "@/components/posts-section"
-import { Footer } from "@/components/footer"
+import { Github, Linkedin } from "lucide-react"
+import { ThemeToggle } from "@/components/theme/theme-toggle"
 
-export default function Portfolio() {
+export default function Page() {
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <div className="min-h-screen flex items-center justify-center px-6">
+      <div className="max-w-md w-full space-y-6">
+        <div className="space-y-4">
+          <h1 className="text-2xl font-medium tracking-tight">Nawaf Ahmed</h1>
+          <p className="text-muted-foreground leading-relaxed">
+            Building machine learning algorithms with a focus on meta-reinforcement learning.
+          </p>
+        </div>
 
-      <main className="container mx-auto px-4 py-12 max-w-4xl">
-        <IntroSection />
-        {/* <ProjectsSection /> */}
-        {/* <ExperienceSection /> */}
-        {/* <PostsSection /> */}
-      </main>
-
-      <Footer />
+        <div className="flex items-center gap-4 text-muted-foreground">
+          <a
+            href="https://github.com/Nawfay"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-foreground transition-colors"
+            aria-label="GitHub"
+          >
+            <Github className="h-5 w-5" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nawaf-ahmed/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-foreground transition-colors"
+            aria-label="LinkedIn"
+          >
+            <Linkedin className="h-5 w-5" />
+          </a>
+          <span className="text-xs text-muted-foreground/60 ml-auto">
+            ottawa, toronto
+          </span>
+          <ThemeToggle />
+        </div>
+      </div>
     </div>
   )
 }
