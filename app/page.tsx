@@ -12,9 +12,9 @@ export default function Portfolio() {
 
       <main className="container mx-auto px-4 py-12 max-w-4xl">
         <IntroSection />
-        <ProjectsSection />
-        <ExperienceSection />
-        <PostsSection />
+        {/* <ProjectsSection /> */}
+        {/* <ExperienceSection /> */}
+        {/* <PostsSection /> */}
       </main>
 
       <Footer />
