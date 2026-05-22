@@ -8,7 +8,7 @@ export default function Page() {
         <div className="space-y-4">
           <h1 className="text-2xl font-medium tracking-tight">Nawaf Ahmed</h1>
           <p className="text-muted-foreground leading-relaxed">
-            sloth. Building machine learning algorithms with a focus on meta-reinforcement learning.
+            Building machine learning algorithms with a focus on meta-reinforcement learning.
           </p>
           <p className="text-sm text-muted-foreground/80">
             i love boko 🦥
