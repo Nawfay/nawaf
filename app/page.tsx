@@ -6,7 +6,7 @@ export default function Page() {
     <div className="min-h-screen flex items-center justify-center px-6">
       <div className="max-w-md w-full space-y-6">
         <div className="space-y-4">
-          <h1 className="text-2xl font-medium tracking-tight">🦥 Nawaf Ahmed</h1>
+          <h1 className="text-2xl font-medium tracking-tight">Nawaf Ahmed</h1>
           <p className="text-muted-foreground leading-relaxed">
             sloth. Building machine learning algorithms with a focus on meta-reinforcement learning.
           </p>
