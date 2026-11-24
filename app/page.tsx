@@ -8,8 +8,11 @@ export default function Page() {
         <div className="space-y-4">
           <h1 className="text-2xl font-medium tracking-tight">Nawaf Ahmed</h1>
           <p className="text-muted-foreground leading-relaxed">
-            Building machine learning algorithms with a focus on meta-reinforcement learning.
+            Teaching machines to find their own rules. I like movies and beach house
           </p>
+          {/* <p className="text-muted-foreground leading-relaxed">
+            There’s a rule underneath everything. I like coming back to the same thing until I notice what I missed the first thirty-nine times. 
+          </p> */}
           <p className="text-sm text-muted-foreground/80">
             i love boko 🦥
           </p>
